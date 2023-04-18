@@ -1,4 +1,4 @@
 
 # CATSS (Cerebral Arterial Tree Segmentation Software)
 
-Welcome to CATSS!!! ![_3532832f-e6a7-4f51-bfae-d242bcad3630](https://user-images.githubusercontent.com/38469694/232731417-c8d1abcb-2ab2-4f98-b55c-07f63745b03a.jpeg)
+Welcome to CATSS!!! ![_fa82b973-76cc-4751-af65-579901433296](https://user-images.githubusercontent.com/38469694/232731860-638653ff-82cb-4cd5-8ecd-76f8a5e90fa0.jpeg)
