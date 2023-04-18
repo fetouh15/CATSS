@@ -18,9 +18,11 @@
 CATSS uses the following labeling scheme:
  
  Make sure your CW labels use the same labeling scheme to get flawless results!
- CATSS uses an I/O directory to store all the inputs and outputs.
+ 
+ CATSS uses an I/O directory to store all the inputs and outputs. The I/O directory must contain a the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The input file must end with _0000 and have an extension of .nii.gz such as in the example below, **TOF_resampled_0000.nii.gz**.
  
  
  
+ 
+![image](https://user-images.githubusercontent.com/38469694/232751654-642bc4f9-e8c7-45f0-befc-6217dc030daa.png)
  CATSS is on dockerhub, its plug&play!
- 
