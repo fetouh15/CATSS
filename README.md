@@ -25,4 +25,7 @@ CATSS uses the following labeling scheme:
  
  
 ![image](https://user-images.githubusercontent.com/38469694/232751654-642bc4f9-e8c7-45f0-befc-6217dc030daa.png)
+ 
  CATSS is on dockerhub, its plug&play!
+ Simply use **sudo docker run --gpus all -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it**
+to install and run CATSS
