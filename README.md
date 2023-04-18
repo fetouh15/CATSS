@@ -10,4 +10,4 @@
 ![image](https://user-images.githubusercontent.com/38469694/232742988-f021b39c-3867-4731-bdb4-65b63d1429b9.png)
 
  <h3> How does it work? </h3>
- All CATSS needs is the **TOF-MRA**[.nii.gz], and a corresponding **CW labels** [.nii.gz]. CATSS generates an binary segmentation of the whole arterial tree, and then uses CW labels as seed points to label the arterial tree accordingly.
+ All CATSS needs is the **TOF-MRA** [.nii.gz], and a corresponding **CW labels** [.nii.gz]. CATSS generates an binary segmentation of the whole arterial tree, and then uses CW labels as seed points to label the arterial tree accordingly.
