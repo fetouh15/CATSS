@@ -17,7 +17,10 @@
  <h3> How to use it? </h3>
 CATSS uses the following labeling scheme:
  
- Make sure your CW labels use the same labeling scheme to get flawless results! 
-frgvhbjn
-sadsadas
-adsa
+ Make sure your CW labels use the same labeling scheme to get flawless results!
+ CATSS uses an I/O directory to store all the inputs and outputs.
+ 
+ 
+ 
+ CATSS is on dockerhub, its plug&play!
+ 
