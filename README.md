@@ -1,4 +1,4 @@
 # CATSS (Cerebral Arterial Tree Segmentation Software)
 
-<h2> Welcome to CATSS! The only open-source cerebral brain vessel multi-class segmentation tool on the market!  
-</h2> ![Dream_Background](https://user-images.githubusercontent.com/38469694/232735896-b0022599-8a4d-47a0-867d-b2b6b4cc2064.jpg)
+<h2> Welcome to CATSS! The only open-source cerebral brain vessel multi-class segmentation tool on the market!   ![Dream_Background](https://user-images.githubusercontent.com/38469694/232736240-0a04c358-9c04-4e0f-a8b3-7a99f3285f99.jpg)
+</h2>
