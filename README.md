@@ -34,7 +34,7 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 | SCA      | 15   |  16   |
 | AChA     | 17   |  18   |
 
-> :warning: **CATSS will only work with the above labeling grid!**
+> :warning: **Users are not required to use eICAB to produce the CW labels; however it is recommended. In case of using any other method, users must make sure that their CW labels match the previous labeling scheme as CATSS will only work with the above labeling grid.**
 
 
 
