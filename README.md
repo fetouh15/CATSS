@@ -12,7 +12,7 @@
  All what CATSS needs is a TOF-MRA nifti file, and a corresponding CW labeled segmentation. CATSS generates an binary segmentation of the whole arterial tree, and then uses CW labels as seed points to label the arterial tree accordingly.
 
  <h2> What does it work on? </h2>
- Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large FOV, it will work! CATSS can segment skull stripped images, and images with venetian blind artifacts.
+Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large FOV, it will work! CATSS can segment skull stripped images, and images with venetian blind artifacts.
  
  ![image](https://user-images.githubusercontent.com/38469694/232742988-f021b39c-3867-4731-bdb4-65b63d1429b9.png)
 
