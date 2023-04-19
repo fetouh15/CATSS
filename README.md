@@ -18,7 +18,22 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 
  <h2> How to use it? </h2>
 CATSS uses the following labeling scheme:
- 
+ | Arteries | Left | Right |
+|----------|------|:-----:|
+| ICA      | 1    |   2   |
+| BAS      | 3   |  3  |
+| AComm      | 4   |  4  |
+| ACA-A1   | 5    |   6   |
+| MCA-M1   | 7    |   8   |
+| PComm    | 9    |  10   |
+| PCA-P1   | 11   |  12   |
+| PCA-P2   | 13   |  14   |
+| SCA      | 15   |  16   |
+| AChA     | 17   |  18   |
+
+
+
+
  Make sure your CW labels use the same labeling scheme to get flawless results!
  
  CATSS uses an I/O directory to store all the inputs and outputs. The I/O directory must contain a the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The input file must end with _0000 and have an extension of .nii.gz such as in the example below, **TOF_resampled_0000.nii.gz**.
@@ -29,5 +44,8 @@ CATSS uses the following labeling scheme:
 ![image](https://user-images.githubusercontent.com/38469694/232751654-642bc4f9-e8c7-45f0-befc-6217dc030daa.png)
  
  CATSS is on dockerhub, its plug&play!
- Simply use **sudo docker run --gpus all -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it**
+ Simply use 
+ ```
+ sudo docker run --gpus all -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it
+ ```
 to install and run CATSS
