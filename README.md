@@ -41,7 +41,7 @@ CATSS uses the following labeling scheme:
 
 
  
- CATSS uses an I/O directory to store all the inputs and outputs. The I/O directory must contain a the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The input file must end with _0000 and have an extension of .nii.gz such as in the example below, **TOF_resampled_0000.nii.gz**.
+ CATSS uses an **I/O** directory to store all the inputs and outputs. The I/O directory must contain the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The input file must end with _0000 and have an extension of .nii.gz such as in the example below, **TOF_resampled_0000.nii.gz**.
  
  
  
