@@ -42,7 +42,7 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 
 
  
- CATSS uses an **I/O** directory to store all the inputs and outputs. The I/O directory must contain the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The input file must end with **_0000** and have an extension of **.nii.gz** such as in the example below, **TOF_resampled_0000.nii.gz**.
+ CATSS uses an **I/O** directory to store all the inputs and outputs. The I/O directory must contain the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The nnio subdirectory must contain one file only the TOF-MRA and the file must end with **_0000** and have an extension of **.nii.gz** such as in the example below, **TOF_resampled_0000.nii.gz**.
  
 ### Here are the files the IO directory must contain:
 ![image](https://user-images.githubusercontent.com/38469694/232751654-642bc4f9-e8c7-45f0-befc-6217dc030daa.png)
