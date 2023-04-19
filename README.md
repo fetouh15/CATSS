@@ -2,8 +2,9 @@
 
 <h2> Welcome to CATSS! The only open-source cerebral brain vessel multi-class segmentation tool on the market!
  </h2> 
-![OIG](https://user-images.githubusercontent.com/38469694/232961605-9e757cd8-5181-46bd-a5a6-8857e79a4fd1.jpeg)
-![_fa82b973-76cc-4751-af65-579901433296](https://user-images.githubusercontent.com/38469694/232961655-1ee11e65-889a-4c85-ab89-bc84684c647b.jpeg)
+![_3532832f-e6a7-4f51-bfae-d242bcad3630](https://user-images.githubusercontent.com/38469694/232962107-80d83fea-0239-47b1-bf51-c48f518ab0fc.jpeg)
+
+
 
 
  <h3> What is CATSS?</h3>
