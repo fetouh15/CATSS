@@ -42,10 +42,17 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 > :warning: **Users are not required to use eICAB to produce the CW labels; however it is recommended. In case of using any other method, users must make sure that their CW labels match the previous labeling scheme as CATSS will only work with the above labeling grid.**
 
 
- CATSS uses an **I/O** directory to store all the inputs and outputs. The I/O directory must contain only one CW labels file ending with **_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The nnio subdirectory must contain one file only the TOF-MRA and the file must end with **_0000.nii.gz** and have an extension of such as in the example below, **TOF_resampled_0000.nii.gz**.
+ CATSS uses an **I/O** directory to store all the inputs and outputs. The I/O directory must contain only one CW labels file ending with **_CW.nii.gz** and only one TOF-MRA file ending with **_TOF.nii.gz**. 
  
-### Here are the files the IO directory must contain:
-![image](https://user-images.githubusercontent.com/38469694/232751654-642bc4f9-e8c7-45f0-befc-6217dc030daa.png)
+ CATSS generates 3 output files: 
+ + **TOF_binary_segmentation_raw.nii.gz**: Binary segmentation of the cerebral arterial tree without postprocessing
+ + **TOF_binary_segmentation.nii.gz**: Binary segmentation of the cerebral arterial tree
+ + **TOF_multiclass_segmentation.nii.gz**: Multi-Class segmentation of the cerebral arterial tree
+### Here  is a snapshot of the IO directory with the required input files before running CATSS:
+![image](https://user-images.githubusercontent.com/38469694/233213202-4bd2485e-dae3-4554-8bf0-912f301a5102.png)
+
+### Here is a snapshot of the IO directory after running CATSS:
+![image](https://user-images.githubusercontent.com/38469694/233213355-ba68114f-49e7-496c-8e47-92a0717a2705.png)
  
 **For CPU use**, simply use the following code block in your bash terminal to install and run CATSS on:
  ```
