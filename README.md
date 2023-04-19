@@ -49,10 +49,10 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
  + **TOF_binary_segmentation.nii.gz**: Binary segmentation of the cerebral arterial tree
  + **TOF_multiclass_segmentation.nii.gz**: Multi-Class segmentation of the cerebral arterial tree
 ### Here  is a snapshot of the IO directory with the required input files before running CATSS:
-![image](https://user-images.githubusercontent.com/38469694/233213202-4bd2485e-dae3-4554-8bf0-912f301a5102.png)
+![image](https://user-images.githubusercontent.com/38469694/233215344-fda9b878-1c25-4b75-acb4-3bdfc45b72e7.png)
 
 ### Here is a snapshot of the IO directory after running CATSS:
-![image](https://user-images.githubusercontent.com/38469694/233213355-ba68114f-49e7-496c-8e47-92a0717a2705.png)
+![image](https://user-images.githubusercontent.com/38469694/233215363-c6ed6047-31e8-4cf0-b217-c85490739266.png)
  
 **For CPU use**, simply use the following code block in your bash terminal to install and run CATSS on:
  ```
