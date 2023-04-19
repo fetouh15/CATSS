@@ -19,7 +19,8 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 ![image](https://user-images.githubusercontent.com/38469694/232984119-e5e6729c-e54e-46e9-91c8-1720bd1c0dda.png)
 
 ## How to use it? 
-CATSS uses the following labeling scheme:
+**CATSS uses the same labeling scheme for [eICAB](https://gitlab.com/FelixDumais/vessel_segmentation_snaillab):**
+
  | Arteries | Left | Right |
 |----------|------|:-----:|
 | ICA      | 1    |   2   |
@@ -33,7 +34,7 @@ CATSS uses the following labeling scheme:
 | SCA      | 15   |  16   |
 | AChA     | 17   |  18   |
 
-> :warning: **CATSS will only work with the above labeling scheme!**
+> :warning: **CATSS will only work with the above labeling grid!**
 
 
 
