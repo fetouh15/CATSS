@@ -13,6 +13,11 @@
  
 ![image](https://user-images.githubusercontent.com/38469694/232989548-eeceee59-68d2-4c86-903b-6c910bd9cacb.png)
 
+## Prerequisites
+A CATSS docker image is available on Dockerhub, so its just plug&play! CATSS only needs [nvidia-container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) if you plan on runnig it on a NVIDIA GPU.
+Please follow [the installation guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
+> :warning: For GPUs only cuda is supported.
+ 
  ## What does it work on? 
 Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large FOV, it will work! CATSS can segment skull stripped images, and images with venetian blind artifacts.
  
@@ -37,18 +42,16 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 > :warning: **Users are not required to use eICAB to produce the CW labels; however it is recommended. In case of using any other method, users must make sure that their CW labels match the previous labeling scheme as CATSS will only work with the above labeling grid.**
 
 
-
-
-
-
- 
  CATSS uses an **I/O** directory to store all the inputs and outputs. The I/O directory must contain the CW labels file **TOF_CW.nii.gz** and a subdirectory **nnio** with an input TOF file. The nnio subdirectory must contain one file only the TOF-MRA and the file must end with **_0000** and have an extension of **.nii.gz** such as in the example below, **TOF_resampled_0000.nii.gz**.
  
 ### Here are the files the IO directory must contain:
 ![image](https://user-images.githubusercontent.com/38469694/232751654-642bc4f9-e8c7-45f0-befc-6217dc030daa.png)
  
- CATSS is on dockerhub, its plug&play!
- **Simply use the following code block in your bash terminal to install and run CATSS.**
+**For CPU use**, simply use the following code block in your bash terminal to install and run CATSS on:
  ```
+ sudo docker run -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it
+ ```
+**For Nvidia GPU use**, simply use the following code block in your bash terminal to install and run CATSS on:
+```
  sudo docker run --gpus all -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it
  ```
