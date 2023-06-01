@@ -54,11 +54,4 @@ Well, **EVERYTHING!** Whether the TOF-MRA is 1.5T, 3T, 7T, small FOV, or large F
 ### Here is a snapshot of the IO directory after running CATSS:
 ![image](https://user-images.githubusercontent.com/38469694/233215363-c6ed6047-31e8-4cf0-b217-c85490739266.png)
  
-**For CPU use**, simply use the following code block in your bash terminal to install and run CATSS on:
- ```
- sudo docker run -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it
- ```
-**For Nvidia GPU use**, simply use the following code block in your bash terminal to install and run CATSS on:
-```
- sudo docker run --gpus all -v '/absolute/path/to/io_directory':/io_directory fetouh15/catss --rm -it
- ```
+# Will be released by end of 2023 !!!!!
