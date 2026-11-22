@@ -28,7 +28,7 @@ Fully automated, multi-class segmentation of the whole cerebral arterial tree in
 ---
 
 <p align="center">
-  <img width="100%" alt="CATSS Pipeline" src="https://github.com/user-attachments/assets/6579d81d-941e-40e0-9105-e12e1c9db5f7" />
+  <img width="80%" alt="CATSS Pipeline" src="https://github.com/user-attachments/assets/6579d81d-941e-40e0-9105-e12e1c9db5f7" />
 </p>
 ## Overview
 
