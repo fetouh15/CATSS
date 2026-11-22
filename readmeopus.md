@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="1016" height="764" alt="60994299-a1d0-44f6-821d-1a7e0b72f09e copy" src="https://github.com/user-attachments/assets/68d732e3-d53b-4336-a4eb-e375281d2b57" />
+<img width="100%" alt="60994299-a1d0-44f6-821d-1a7e0b72f09e copy" src="https://github.com/user-attachments/assets/68d732e3-d53b-4336-a4eb-e375281d2b57" />
 
 
 **Cerebral Arterial Tree Segmentation Software**
