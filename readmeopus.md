@@ -27,9 +27,7 @@ Fully automated, multi-class segmentation of the whole cerebral arterial tree in
 
 ---
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/38469694/232989548-eeceee59-68d2-4c86-903b-6c910bd9cacb.png" width="90%" alt="CATSS pipeline: TOF-MRA and Circle of Willis labels in, binary and multi-class arterial tree segmentations out">
-</p>
+<img width="640" height="360" alt="Gemini_Generated_Gif_dmo46hdmo46hdmo4" src="https://github.com/user-attachments/assets/6579d81d-941e-40e0-9105-e12e1c9db5f7" />
 
 ## Overview
 
