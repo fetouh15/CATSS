@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/38469694/232968254-69a4f022-9def-43ac-86e9-ee1c4b84a9b9.jpeg" width="150" alt="CATSS logo">
+<img width="1016" height="764" alt="60994299-a1d0-44f6-821d-1a7e0b72f09e copy" src="https://github.com/user-attachments/assets/68d732e3-d53b-4336-a4eb-e375281d2b57" />
 
-# CATSS
 
 **Cerebral Arterial Tree Segmentation Software**
 
