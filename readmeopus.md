@@ -27,8 +27,9 @@ Fully automated, multi-class segmentation of the whole cerebral arterial tree in
 
 ---
 
-<img width="640" height="360" alt="Gemini_Generated_Gif_dmo46hdmo46hdmo4" src="https://github.com/user-attachments/assets/6579d81d-941e-40e0-9105-e12e1c9db5f7" />
-
+<p align="center">
+  <img width="1000" alt="CATSS Pipeline" src="https://github.com/user-attachments/assets/6579d81d-941e-40e0-9105-e12e1c9db5f7" />
+</p>
 ## Overview
 
 Time-of-flight magnetic resonance angiography (TOF-MRA) is widely used in clinical and research settings to examine the cerebral arteries. Analysing the whole arterial tree, though, still means experts tracing and labelling vessels by hand. That is slow, it varies from one reader to the next, and it does not scale to large studies, especially when every artery needs its own label.
